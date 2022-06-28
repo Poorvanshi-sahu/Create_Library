@@ -84,7 +84,14 @@ button:hover {
 
 .headtwo {
     color: aliceblue;
-    width: 20%;
+}
+
+.other1 {
+    width: 27%;
+}
+
+.other {
+    width: 15%;
 }
 
 #popup {

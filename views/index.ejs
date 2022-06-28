@@ -66,28 +66,28 @@
             </div>
             <div id="task">
                 <div class="one">
-                    <div class="head">BOOK NAME</div>
-                    <div class="head">AUTHOR NAME</div>
-                    <div class="head">PAGES</div>
-                    <div class="head">RATING</div>
-                    <div class="head">PRICE</div>
+                    <div class="head other1">BOOK NAME</div>
+                    <div class="head other1">AUTHOR NAME</div>
+                    <div class="head other">PAGES</div>
+                    <div class="head other">RATING</div>
+                    <div class="head other">PRICE</div>
                 </div>
                 <%all.forEach((ek)=>{%>
                     <div class="upper">
                         <div class="one">
-                            <div class="headtwo">
+                            <div class="headtwo other1">
                                 <%=ek.book%>
                             </div>
-                            <div class="headtwo">
+                            <div class="headtwo other1">
                                 <%=ek.author%>
                             </div>
-                            <div class="headtwo">
+                            <div class="headtwo other">
                                 <%=ek.pages%>
                             </div>
-                            <div class="headtwo">
+                            <div class="headtwo other">
                                 <%=ek.rating%>
                             </div>
-                            <div class="headtwo">Rs.
+                            <div class="headtwo other">Rs.
                                 <%=ek.price%>
                             </div>
                             <div><a href="/delete/<%=ek._id%>"><button id="del"><i class="ri-delete-bin-5-line"></i></button></a></div>
