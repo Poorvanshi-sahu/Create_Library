@@ -178,4 +178,7 @@ button:hover {
     .one {
         min-height: 80px;
     }
+    #nav {
+        padding: 10px 17px;
+    }
 }
