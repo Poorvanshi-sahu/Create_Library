@@ -1,7 +1,12 @@
 add = document.querySelector("#add")
 popup = document.querySelector("#popup")
-    // pop = document.querySelector("#pop")
+cross = document.querySelector("#cross")
 
 add.addEventListener('click', () => {
     popup.style.display = "initial";
+})
+
+
+cross.addEventListener('click', () => {
+    popup.style.display = "none";
 })
